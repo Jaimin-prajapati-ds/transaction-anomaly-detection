@@ -1,0 +1,6 @@
+# Streamlit Dashboard Dependencies
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
