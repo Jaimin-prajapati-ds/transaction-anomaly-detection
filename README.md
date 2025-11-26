@@ -1,5 +1,7 @@
 # 🔍 Transaction Anomaly Detection System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://transaction-anomaly-detection.streamlit.app)
+
 > Advanced ML system for detecting anomalous transactions and network behavior using ensemble methods - Isolation Forest, PCA Reconstruction, and Statistical Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
