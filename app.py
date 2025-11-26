@@ -45,11 +45,6 @@ def generate_transaction_data():
     # Normal transactions
     normal_amounts = np.random.lognormal(4, 1, int(n_transactions * 0.95))
     
-    # Anomalous transactions
-    anomaly_amounts = np.random.choice([np.random.uniform(10000, 50000), np.random.uniform(0.01, 1)], int(n_transactions * 0.05))
-    
-    amounts = np.concatenate([normal_amounts, [anomaly_amounts] * int(n_transactions * 0.05)])
-    np.random.shuffle(amounts)
     
     data = {
         'TransactionID': [f'TXN{str(i).zfill(6)}' for i in range(1, n_transactions + 1)],
